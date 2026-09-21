@@ -8,6 +8,10 @@ Official implementation of MSPMLTC: A novel Multi-Source Partial Multi-Label Lea
 We provide a small synthetic multi-source partial multi-label dataset in `datasets/` for quick testing.
 > For real-world experiments, please download full datasets from their official sources (see below).
 
+> After downloading, place your dataset in `datasets/`. Datasets containing noisy labels are located in the `datasets_noise_labels/` folder.
+
+> Run `main.py`, which contains the full implementation of the MSPMLTC model, its core algorithm, and evaluation code.
+
 ---
 
 ## 📖 Model Overview
